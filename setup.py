@@ -31,9 +31,9 @@ setup(
         "amaranth-boards",
         "minerva",
 
-        "migen",
-        "litex",
-        "litedram",
+        "migen @ git+https://github.com/m-labs/migen@3ffd64c9b47619bd6689b44f29a8ed7c74365f14",
+        "litex @ git+https://github.com/enjoy-digital/litex@f9f1b8e25db6d6db1aa47a135a5f898c433d516e",
+        "litedram @ git+https://github.com/enjoy-digital/litedram@83d18f48c7f7590096ddb35d669836d7abb3be6f",
     ],
     entry_points={
         "console_scripts": [
